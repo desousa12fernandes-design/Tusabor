@@ -16,5 +16,6 @@ services:
 databases:
   - name: yogurt_db
     plan: free
-    postgresVersion: 15
+    version: "15" # CORREGIDO: Se usa 'version' entre comillas en lugar de 'postgresVersion'
+    
     
