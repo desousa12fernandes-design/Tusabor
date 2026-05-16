@@ -16,5 +16,4 @@ services:
 databases:
   - name: yogurt_db
     plan: free
-    version: "15"
     
